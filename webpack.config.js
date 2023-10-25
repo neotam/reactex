@@ -41,7 +41,7 @@ module.exports = {
 
   plugins: [
 
-    // To inject the bundled js into html, if template not specified html file will be created
+    // To inject the bundled js into html, if specified template html is used otherwise html file will be created
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'public', 'index.html')
     })
